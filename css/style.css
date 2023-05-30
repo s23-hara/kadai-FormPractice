@@ -1,0 +1,122 @@
+@charset "UTF-8";
+.wrapper {
+  width: 100%;
+  background-color: #cff1ff;
+}
+
+.inner {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 28px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.form-wrapper {
+  background-color: #ecfaff;
+  margin-top: 60px;
+  padding: 50px;
+}
+
+.title2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 18px;
+  color: #000000;
+}
+
+.info {
+  margin-top: 50px;
+}
+
+.label {
+  color: #464646;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.text-area {
+  width: 100%;
+  height: 35px;
+  margin-top: 6px;
+  padding: 5px;
+  color: #545658;
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  background: #fbfbfb;
+}
+
+span {
+  color: #e40000;
+}
+
+.birth-flex {
+  display: flex;
+}
+
+.select-area {
+  width: 100%;
+  position: relative;
+}
+
+select {
+  width: 100%;
+  height: 35px;
+  margin-top: 6px;
+  padding: 5px;
+  color: #545658;
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  background: #fbfbfb;
+}
+
+.sex-flex {
+  display: flex;
+}
+
+.sex {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.sex:last-child {
+  margin-right: 0px;
+}
+
+.checkbox {
+  display: block;
+  font-size: 16px;
+  margin: 0 0 20px 10px;
+}
+
+.checkbox:last-child {
+  margin-bottom: 0px;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 40px;
+}
+
+button {
+  width: 100%;
+  padding: 13px;
+  background: #0170bf;
+  color: #fff;
+  border: none;
+}
+
+.last-sentence {
+  margin-top: 25px;
+  font-size: 10px;
+}
+
+.last-sentence a {
+  text-decoration: none;
+}
