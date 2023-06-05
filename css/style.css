@@ -110,6 +110,20 @@ button {
   background: #0170bf;
   color: #fff;
   border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  display: inline-block;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+button:active {
+  background: #fff;
+  color: #0170bf;
+  border: 1px solid #d9d9d9;
 }
 
 .last-sentence {
