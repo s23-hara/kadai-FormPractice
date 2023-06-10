@@ -81,10 +81,19 @@
           </div>
           <div class="label">
             <p>性別 <span>※</span></p><br>
-            <div class="sex-flex">
-              <label class="sex" for="sex1"><input name="sex" type="radio" id="sex1">男性</label>
-              <label class="sex" for="sex2"><input name="sex" type="radio" id="sex2">女性</label>
-              <label class="sex" for="sex3"><input name="sex" type="radio" id="sex3">その他</label>
+            <div class="sex-area">
+              <label class="sex-element">
+                <input class="sex-content" type="radio" name="sex">
+                <span>男性</span>
+              </label>
+              <label class="sex-element">
+                <input class="sex-content" type="radio" name="sex">
+                <span>女性</span>
+              </label>
+              <label class="sex-element">
+                <input class="sex-content" type="radio" name="sex">
+                <span>その他</span>
+              </label>
             </div>
           </div>
           <div class="label">
@@ -136,10 +145,20 @@
       </section>
       <section class="info">
         <form action="#" method="post">
-          <h3 class="section-title">購買情報</h3>
           <div class="label">
-            <label class="checkbox" for="checkbox1"><input name="checkbox" type="checkbox" id="checkbox1">メールマガジン</label>
-            <label class="checkbox" for="checkbox2"><input name="checkbox" type="checkbox" id="checkbox2">クーポン</label>
+          <h3 class="section-title">購買情報</h3>
+            <div class="buying-area">
+              <label class="buying-element">
+                <input class="buying-content" type="checkbox" name="buying">
+                <span>メールマガジン</span>
+              </label>
+            </div>
+            <div class="buying-area">
+              <label class="buying-element">
+                <input class="buying-content" type="checkbox" name="buying">
+                <span>クーポン</span>
+              </label>
+            </div>
           </div>
         </form>
       </section>

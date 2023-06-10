@@ -76,27 +76,95 @@ select {
   background: #fbfbfb;
 }
 
-.sex-flex {
-  display: flex;
+input[type="radio"], input[type="checkbox"] {
+  display: none;
 }
 
-.sex {
-  font-size: 16px;
-  margin-right: 20px;
+.sex-area {
+  margin-top: 6px;
 }
 
-.sex:last-child {
-  margin-right: 0px;
+.sex-element{
+  margin-left: 10px;
 }
 
-.checkbox {
+.sex-element:first-child {
+  margin-left: 0;
+}
+
+.sex-element span{
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+  color: #545658;
+}
+
+.sex-element span:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  background-color: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.sex-content:checked +
+span:after  {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  background-color: #017cbf;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.buying-element {
+  margin-left: 20px;
+}
+
+.buying-element span {
   display: block;
-  font-size: 16px;
-  margin: 0 0 20px 10px;
+  font-size: 14px;
+  color: #464646;
+  padding-left: 25px;
+  position: relative;
 }
 
-.checkbox:last-child {
-  margin-bottom: 0px;
+.buying-area {
+  padding-top: 15px;
+}
+
+.buying-element span:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  margin-top: -8px;
+  border: 1px solid #d9d9d9;
+  background: #ffffff;
+}
+
+.buying-content:checked +
+span::after  {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  width: 6px;
+  height: 13px;
+  margin-top: -11px;
+  border-right: 3px solid #0140bf;
+  border-bottom: 3px solid #0140bf;
+  transform: rotate(45deg);
 }
 
 .btn {
@@ -132,6 +200,7 @@ button:active {
 }
 
 .last-sentence a {
+  color: #0170bf;
   text-decoration: none;
 }
 
